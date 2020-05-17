@@ -1,0 +1,6 @@
+create or replace PACKAGE RBSCHECK AS 
+
+    PROCEDURE RBSCheckRealDist;
+    PROCEDURE RBSEqualDist(K IN INTEGER);
+    
+END RBSCHECK;
